@@ -42,8 +42,19 @@ Before running this notebook, ensure you have:
    import cupy as cp
    import torch  # Main PyTorch library (includes CUDA support)
    import time trace_malloc #for performance metrics
-
-2. **Download Images**:  
+   
+3. **Download Images**:  
    - for image preprocessing performance metrics
    - upload these images in Sample data folder before running the code.
+
+## 📜 Required Headers (C++/CUDA Files)
+
+For any custom CUDA kernels or low-level operations, your C++/CUDA files must include these headers:
+
+```cpp
+// Core CUDA runtime functionality (memory management, device functions)
+#include <cuda_runtime.h>  
+
+// PyTorch C++/CUDA extension support (if integrating with PyTorch)
+#include <torch/extension.h>  
 
