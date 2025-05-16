@@ -41,7 +41,9 @@ Before running this notebook, ensure you have:
    !pip install numpy pandas tensorflow
    import cupy as cp
    import torch  # Main PyTorch library (includes CUDA support)
+   import time trace_malloc #for performance metrics
 
 2. **Download Images**:  
    - for image preprocessing performance metrics
+   - upload these images in Sample data folder before running the code.
 
