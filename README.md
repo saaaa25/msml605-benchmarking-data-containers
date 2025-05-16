@@ -39,6 +39,8 @@ Before running this notebook, ensure you have:
 2. **Install Dependencies**:  
    ```python
    !pip install numpy pandas tensorflow
+   import cupy as cp
+   import torch  # Main PyTorch library (includes CUDA support)
 
 2. **Download Images**:  
    - for image preprocessing performance metrics
