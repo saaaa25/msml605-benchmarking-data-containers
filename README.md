@@ -38,7 +38,8 @@ Before running this notebook, ensure you have:
 
 2. **Install Dependencies**:  
    ```python
-   !pip install -r requirements.txt  # If you have a requirements file
-   # Or install manually:
    !pip install numpy pandas tensorflow
+
+2. **Download Images**:  
+   - for image preprocessing performance metrics
 
