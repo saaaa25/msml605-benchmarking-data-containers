@@ -1,11 +1,44 @@
-Description: Benchmarking Data Containers: NumPy vs. PyTorch vs. C++
+# 🚀 **Benchmarking Data Containers: NumPy vs. PyTorch vs. C++**  
+*Explore performance of NumPy, PyTorch, and C++ data containers. Analyze CPU and GPU efficiency across key algorithms and tasks.*  
 
-Explore performance of NumPy, PyTorch, and C++ data containers. Analyze CPU and GPU efficiency across key algorithms and tasks.
+---
 
-Prerequisites:
+## 📋 **Table of Contents**  
+- [Prerequisites](#-prerequisites)  
+- [Setup](#-setup-in-google-colab)  
+- [Usage](#-usage)  
+- [Troubleshooting](#-troubleshooting)  
+- [License](#-license)  
 
-Before running this notebook, ensure you have:
+---
 
--A Google account (to access Google Colab) .
--The .ipynb file (this notebook) uploaded to your Google Drive or GitHub.
+## 🔧 **Prerequisites**  
+Before running this notebook, ensure you have:  
+- A **Google account** (to access [Google Colab](https://colab.research.google.com/)).  
+- The **`.ipynb` file** (uploaded to Google Drive/GitHub or locally stored).  
+
+---
+
+## ⚙️ **Setup in Google Colab**  
+
+### **Option 1: Open from GitHub**  
+1. Go to [Google Colab](https://colab.research.google.com/).  
+2. Click the **GitHub** tab.  
+3. Paste this repository URL or `.ipynb` file link → Press **Enter**.  
+
+### **Option 2: Upload Manually**  
+1. Open [Google Colab](https://colab.research.google.com/).  
+2. Click **File** → **Upload notebook** → Select your `.ipynb` file.  
+
+---
+
+## 🎯 **Usage**  
+1. **Set Runtime**:  
+   - Click **Runtime** → **Change runtime type** → Select **Python 3** + **GPU/TPU** (if needed).  
+
+2. **Install Dependencies**:  
+   ```python
+   !pip install -r requirements.txt  # If you have a requirements file
+   # Or install manually:
+   !pip install numpy pandas tensorflow
 
