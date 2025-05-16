@@ -48,7 +48,7 @@ Before running this notebook, ensure you have:
    - upload these images in Sample data folder before running the code.
   
 4. **Required Headers (C++/CUDA Files)**
-   For any custom CUDA kernels or low-level operations, your C++/CUDA files must include these headers:
+   -For any custom CUDA kernels or low-level operations, your C++/CUDA files must include these headers:
    ```cpp
    // Core CUDA runtime functionality (memory management, device functions)
    #include <cuda_runtime.h>
