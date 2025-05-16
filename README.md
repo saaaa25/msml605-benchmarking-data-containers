@@ -6,6 +6,6 @@ Prerequisites:
 
 Before running this notebook, ensure you have:
 
--A Google account (to access Google Colab).
+-A Google account (to access Google Colab) .
 -The .ipynb file (this notebook) uploaded to your Google Drive or GitHub.
 
