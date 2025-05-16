@@ -27,34 +27,20 @@ Before running this notebook, ensure you have:
 3. Paste this repository URL or `.ipynb` file link → Press **Enter**.  
 
 ### **Option 2: Upload Manually**  
-1. Open [Google Colab](https://colab.research.google.com/).  
-2. Click **File** → **Upload notebook** → Select your `.ipynb` file.  
+1. Download the repository to your local machine.
+2. Open [Google Colab](https://colab.research.google.com/).
+4. Click **File** → **Open notebook** → **Upload** -> **Browse** -> Select your `.ipynb` file.  
 
 ---
 
-## 🎯 **Usage**  
+## 🎯 **Running the Code**  
 1. **Set Runtime**:  
-   - Click **Runtime** → **Change runtime type** → Select **Python 3** + **GPU/TPU** (if needed).  
+   - Click **Runtime** → **Change runtime type** → Select **Python 3** + **GPU/TPU** (when running GPU codes).  
 
-2. **Install Dependencies**:  
-   ```python
-   !pip install numpy pandas tensorflow
-   import cupy as cp
-   import torch  # Main PyTorch library (includes CUDA support)
-   import time trace_malloc #for performance metrics
-   
-3. **Download Images**:  
-   - for image preprocessing performance metrics
-   - upload these images in Sample data folder before running the code.
-  
-4. **Required Headers (C++/CUDA Files)**:
+2. **Download Images**:  
+   - Upload the image files from /images to the sample_data folder of Colab files.
+   - The path of images should be 'content/sample_data/image_name.jpg' for the code to run successfully.
 
-   - For any custom CUDA kernels or low-level operations, your C++/CUDA files must include these headers:
-   ```cpp
-   // Core CUDA runtime functionality (memory management, device functions)
-   #include <cuda_runtime.h>
-
-   // PyTorch C++/CUDA extension support (if integrating with PyTorch)
-   #include <torch/extension.h>
-
+3. **Run**:
+   - Run the code to see results.
 
